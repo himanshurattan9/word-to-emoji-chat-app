@@ -13,7 +13,7 @@ body {
 }
 
 .chat-container {
-  width: 400px;
+  width: 100%;
   margin: 20px auto;
   background-color: #fff;
   border-radius: 5px;
@@ -22,7 +22,7 @@ body {
 }
 
 .messages {
-  height: 300px;
+  height: calc(100vh - 80px); /* Adjust the value based on your header height and input container */
   overflow-y: auto;
 }
 
